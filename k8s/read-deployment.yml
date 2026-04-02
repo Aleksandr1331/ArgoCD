@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reader-container
-          image: tawori/reader
+          image: tawori/reader:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
